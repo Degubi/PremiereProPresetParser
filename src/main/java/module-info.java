@@ -3,6 +3,7 @@ module degubi.ppropresetparser {
 
     requires transitive jakarta.xml.bind;
     requires java.sql;
+    requires java.naming;
 
     requires org.eclipse.persistence.core;
     requires org.eclipse.persistence.moxy;
